@@ -1,0 +1,83 @@
+
+
+
+h1 /* decorate the h1 headings  */
+{
+    color:rgb(73, 46, 0); /* change the color using rgb format */
+    font-size: 100px; /* change the font size to 100 pixels */
+    font-family: 'Brush Script MT', cursive; /* change the Font */
+}
+
+
+
+h2 /* Decorate the h2 headings */
+{
+    color:rgb(48, 30, 107);
+    font-size: 60px;
+    font-family: Garamond, serif;
+}
+
+
+
+h3
+{
+    color:rgb(94, 76, 30);
+    font-size: 35px;
+    font-family: Tahoma, sans-serif;
+}
+
+
+h4
+{
+    color:rgb(48, 0, 150);
+    font-size: 16px;
+}
+
+h5
+{
+    color:rgb(60, 0, 73);
+    font-size: 16px;
+}
+
+
+
+
+h6
+{
+    color:rgb(73, 46, 0);
+    font-size: 16px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+#ending { /* use an id to change style for particular part of the script/code */
+    color:rgb(96, 0, 0);
+    font-size: 37px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+
+
+p /* add style to paragraph (tag) */
+{
+    color:rgb(0, 66, 14);
+    font-size: 17px;
+}
+
+
+
+
+/* Center the unordered list */
+ul {
+    list-style-position: inside; /* this keeps the bullets inside */
+    text-align: center; /* centerally align the text */
+    padding: 0;
+}
+
+/* Center the container */
+.center-container {
+    display: flex; /* put flex box (display:flex) , flexbox is a layout for putting items in rows or columns. */
+    justify-content: center; /* justify defines how the browser distributes spaces between content's items,and alligns centerally */
+    align-items: center; 
+    height: 100vh; /* Full page height */
+    flex-direction: column;
+}

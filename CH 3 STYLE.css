@@ -1,0 +1,31 @@
+body { /* add style to the body and bg */
+    font-family: Arial, sans-serif; /* font type */
+    text-align: center; /* alignment of the texts */
+    background-color: #f0f0f0; /* BG color (Hexa_decimal format)  */
+}
+
+.image-container {/* Image container styles */
+    display: flex; /* add a flexbox, flexbox is a layout for putting items in rows or columns. */
+    justify-content: center; /* here justify defines how the browser distributes spaces between content's items, here it alligns centerally */
+    gap: 20px; /* create gap between rows and columns  */
+    padding: 20px; /* use padding to create space around items */
+}
+
+.image-box {
+    background-color: white; /* image box background color */
+    padding: 10px; /* add the padding */
+    border-radius: 10px; /* radius of the box border */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* create shadow around boxes fot aesthetics  */
+}
+
+img {
+    max-width: 100%; /* max width makes sure the image doesn't exceed width of the container */
+    height: auto; /* height is automatic (with respect to the aspect ratio) */
+}
+
+p { /* add style to the text */
+    font-size: 14px; /* font size */
+    color: rgb(31, 31, 19); /* color */
+}
+
+

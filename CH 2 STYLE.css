@@ -1,0 +1,75 @@
+/* resets everything */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the body */
+body {
+    font-family: Arial;
+    line-height: 1.6;
+    background-color: rgb(31, 37, 54);
+    color: rgb(255, 255, 255); 
+    margin: 0;
+}
+
+/* Navibzgion bar styling */
+nav {
+    background-color: rgb(37, 50, 92); 
+    color: rgb(14, 18, 31);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(138, 163, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section styling */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(32, 51, 121);
+}
+
+section h1, section h2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+
+
+/* Styling the button */
+.button-link {
+    background-color: rgb(0, 55, 14);
+    color: rgb(0, 52, 30);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/* Styling lists */
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+

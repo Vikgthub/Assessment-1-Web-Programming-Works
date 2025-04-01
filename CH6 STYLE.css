@@ -1,0 +1,51 @@
+
+/* this is the CSS section of chapter six, this part only contains the styling for chapter 6 (to create a professional looking program)  */
+/* HTML is used to create a website's framework, CSS for style that framework, and JavaScript to introduce add interactivity and behaviour */
+
+
+body { /* add styling to the body */
+    font-family: Arial, sans-serif;
+    display: flex; /* add a flexbox, flexbox is a layout for putting items in rows or columns. */ 
+    justify-content: center; /* here justify defines how the browser distributes spaces between content's items, here it alligns centerally */
+    align-items: center;  /* align things to center */
+    height: 100vh; /* fix the height */
+    background-color: #f4f4f4; /* add background color */
+}
+
+.container { /* add style to the container */
+    background: white;
+    padding: 20px;  /* use padding to create space around items */
+    border-radius: 10px; /* radius of the box border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* create shadow around boxes fot aesthetics (rgba format) */
+    text-align: center; /* align things to center */
+}
+
+input { /* add style to the input boxes */
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input:focus { /* add style to the input boxes */
+    /* add style to the input box once the user clicks the up(increase) and down(decrease) arrow */
+    border-color: #007bff; /* add color (Hexa_Decimal format) */
+    box-shadow: 0 0 5px #007bff;
+}
+
+button { /* add style to the button */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover { /* add style to the button hover effect */
+    background-color: #0056b3;
+}
+

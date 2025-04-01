@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gas(oline) Cost Calculator</title>
+    <link rel="stylesheet" href="CH6 STYLE.css"> <!-- import a Css file source to add styles -->
+</head>
+
+<body> <!-- this is the html section of chapter six, this part only contains the coding/script for chapter 6 -->
+    <!-- HTML is used to create a website's framework, CSS for style that framework, and JavaScript to introduce add interactivity and behaviour -->
+
+    <div class="container"> <!-- create a div tag for the body of the gas calculator (a container of content) -->
+        <h2>Gas Calculator</h2> <!-- add heading using h2 tag -->
+        
+        <label for="costPerLiter">Cost /Liter:</label> <!-- create a label using lable tag, a lable tag can be used for combinations of info and define several elements -->
+        <input type="number" id="costPerLiter" value="1.72" step="0.01"> <!-- allow user to input a number (cash price amount (per liter) ), and create an id for css styling, and a value to be used for Java script (defult value being 1.72) and a step so user can increase or decrease the amount (by 0.01 +/-) -->
+        
+        <label for="liters">Liters (Purchased):</label> <!-- create another label -->
+        <input type="number" id="liters" value="0" step="0.01"> <!-- allow the user to input a number (this time amount of gas (liters)) and create another ID and value, but keeping the step same -->
+        
+        <button onclick="calculateTotal()">Calculate</button> <!-- create a button, so that once the user is done putting in the info, they can click the button to get the result. the results are shown in an instant on a mouse click (ONCLICK) -->
+        
+        <p>Total Cost: AED<span id="totalCost">0.00</span></p> <!-- display the reult using paragraph tag and use span for inline mark up (a span is simillar to a div but on smaller scale and used for marking up part of a text) -->
+    </div>
+
+    <script src="CH6 SCRIPT.js"></script> <!-- import a javsa script source to add the behaviour -->
+</body>
+</html>
